@@ -10,8 +10,56 @@
   a.btn{color:#0B0D10;background:#FF7A2F;padding:8px 16px;border-radius:20px;text-decoration:none;font-size:11pt}
   iframe{flex:1;border:0;width:100%}
   .tip{font-size:10.5pt;color:#98A2B0}
+  .qr { width:46mm; border-radius:2mm; background:#fff; padding:3mm; }
+  .link { font-size:12pt; color:#FF7A2F; word-break:break-all; }
 </style></head><body>
 <header><h1>N90 · 让车成为一间会变的房子</h1>
 <span class="tip">王睿 · 202409638 　<a class="btn" href="hmi-n90.pdf">下载 PDF</a></span></header>
 <iframe src="hmi-n90.pdf#view=Fit"></iframe>
+
+  <section class="page">
+    <div class="pnum">13</div>
+    <div class="kicker">可点击原型</div>
+    <h2>扫码或打开链接，直接体验</h2>
+    <div class="rule"></div>
+    <div style="display:flex; gap:14mm; align-items:flex-start; margin-top:8mm;">
+      <img class="qr" src="qr.png">
+      <div>
+        <div class="link">https://lansir-dev.github.io/hmi-n90-demo</div>
+        <div class="lead" style="margin-top:6mm; max-width:96mm;">
+          31 帧可点击原型，按真实操作顺序串联：<br>
+          待机 → 一键扎营 → 露营 → 顶舱三档 → 睡眠微调 → 收营 → 值夜 → 离营检查。<br><br>
+          建议按这个顺序点一遍，大约 2 分钟。
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page">
+    <div class="pnum">14</div>
+    <div class="kicker">演示视频</div>
+    <h2>25 秒，走完一次完整扎营</h2>
+    <div class="rule"></div>
+    <div class="lead">视频随本 PDF 一同提交（文件名 <code>N90-HMI-25s.mp4</code>）。<br>它演示的是：一次扎营里，界面如何把「现在什么状态、还能怎么变」始终说清楚。</div>
+    <div class="items">
+      <div class="item"><b>00–06s</b><span>待机：唯一主行动与顶栏许可条</span></div>
+      <div class="item"><b>06–14s</b><span>扎营：目标 / 实际 / 剩余，顶舱从 1.98m 升到 2.68m</span></div>
+      <div class="item"><b>14–20s</b><span>顶舱三档：高度尺与互锁图，700→400 的选择</span></div>
+      <div class="item"><b>20–25s</b><span>离营检查：阻塞项 + 解除动作，直到全部放行</span></div>
+    </div>
+  </section>
+
+  <section class="page">
+    <div class="pnum">15</div>
+    <div class="kicker">结语</div>
+    <h2>让车成为一间会变的房子<br>先让它学会说自己现在是什么</h2>
+    <div class="rule"></div>
+    <div class="lead">
+      这套 HMI 只做了一件事：把「状态」从说明文字里搬到界面上。<br><br>
+      车能升顶、能变床、能放电，这些能力本身不难；难的是让一个抱着孩子的父亲、<br>
+      在夜里两点、半睡半醒的时候，仍然知道这台车此刻是什么形态、下一步能不能动。<br><br>
+      这就是「状态可见性」的全部意思。
+    </div>
+    <div class="meta">王睿　·　202409638　·　2026.10</div>
+  </section>
 </body></html>
